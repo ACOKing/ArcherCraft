@@ -1,96 +1,369 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Archercraft by ACOKing</title>
-  </head>
-
-  <body>
-    <a id="forkme_banner" href="https://github.com/ACOKing/ArcherCraft">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Archercraft</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/ACOKing/ArcherCraft/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/ACOKing/ArcherCraft/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+<html  xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<title> ArcherCraft Online Hotel - Where the History Notes Come And Play!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.1/jquery.mobile.min.js"></script>
+<link rel="stylesheet" type="text/css" href="_styles/css/stylesheet.css"/>
+<script src="https://apis.google.com/js/platform.js"></script>
 
 
-      <span class="banner-fix"></span>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div data-role="page" id="home" data-theme="b" data-title="Home">
+<div data-role="panel" id="ACOSP" data-display="push">
+<div class="g-ytsubscribe" data-channelid="UC9XJUpnHHKGqrpdp0Oa7piA" data-layout="full" data-theme="dark" data-count="default"></div>
+<fb:like href="https://archercraft.blogspot.com" layout="standard" action="like" show_faces="true" share="true"></fb:like>
+<fb:comments href="https://archercraft.blogspot.com" numposts="5" colorscheme="light"></fb:comments>
+<a href="#" data-rel="close"  class="ui-btn ui-btn-inline">Close</a>
+<button onclick="window.location.assign('http://localhost/ACO%20Hotel/'+prompt('Page')")>Portal</button>
+</div>
 
+<div data-role="header"><a href="#Ottomanspart1" data-transition="slidefade">Ottomans</a><a href="#searchHW" data-icon="search">Search the Ottoman HomeWork</a>
+<h1>ArcherCraft Online Hotel</h1>
+<div data-role="navbar">
+    <ul>
+      <li><a href="#searchHW" data-icon="search">Search(Info)</a></li>
+    </ul>
+  </div>
+</div>
+<div data-role="main" class="ui-content">
+<a href="#checkin" class="ui-btn">Check into ACO Hotel!</a>
+<form class="ui-filterable">
+  <input id="S" data-type="search">
+</form>
+<ul data-role="listview"  data-filter="true" data-input="#S">
+ <li data-role="list-divider">Forms</li>
+   <li><a href="#BookingPage">Book your Stay</a></li>
+   <li data-role="list-divider">Subscriptions</li>
+   <li><a href="#ACOSP">Suscription Panel</a></li>
+  <li><a href="https://www.facebook.com/groups/acohotel/">ACO Hotel</a></li>
+<li><a href="#ACOYTChemistryPlaylist">ArcherCraft Online YT Chemistry Playlist</a></li>
+<li data-role="list-divider" >Chemistry</li>
+   <li><a href="#LimitingReactantsPercentYield">Limiting Reactants/Percent Yield</a></li>
+   <li><a href="#Limiting-Reactant">Definition of Limiting Reactant</a></li>
+   <li><a href="#LR_Example"  >Example for Limiting Reactants</a></li>
+ <li><a href="#LR_Example_2">Example #2</a></li>
+ <li data-role="list-divider">AP World History</li>
+  <li><a href="#Ottomanspart1">Intro</a></li>
+  <li><a href="#Ottomanspart2">Dependencies</a></li>
+  <li><a href="#Religion">Religious Enemies</a></li>
+   <li><a href="#janissaries2">Were the Janissaries willing to fight with the ottomans?</a></li>
+<li><a href="#question9">Reign of Suleiman</a></li>
+<li><a href="#question10">The Islamic Law</a></li>
+<li><a href="#question11">Firearms</a></li>
+<li><a href="#janissaries1">Janissaries  , Part 2</a></li>
+<li><a href="#TaxFarming">Tax Farming</a></li>
+<li><a href="#Trade">Trade</a></li>
+<li><a href="#question15">Question 15</a></li>
+<li><a href="#question16">Question 16</a></li>
+<li><a href="#question17">Question 17</a></li>
+<li><a href="#question19">Question 19</a></li>
+<li><a href="#question20">Question 20</a></li>
+<li><a href="#question21">Question 21</a></li>
+<li><a href="#VeniceVSOttomans">Venice</a></li>
 
-      <section id="main_content">
-        <p>``````### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+ <li><a href="#janissaries">Janissaries</a></li>
+ <li><a href="#devshrime">Devshirme</a></li>
+<li><a href="#KeyTermsHistory">Gunpowder Empires Vocab</a></li>
+<li><a href="/_static/media/pdf/chapter19.pdf">Chapter 19</a></li>
+  <li data-role="list-divider">Honor's English</li>
+<li><a href="#KeyTermsHistory">Ottoman Key Terms</a></li>
+  <li><a href="Three Ways Coding Kickstarts Your Career.htm">Article 1</a></li>
+  <li><a href="#Essaypage1">Essay</a></li>
+  <li><a href="#Article2">Source # 2</a></li>
+  <li data-role="list-divider">Spanish</li>
+  <li><a href="#Spanish">Spanish Project on Frida Kahlo</a></li>
+  </ul>
+   </div>
+<div data-role="footer" style="text-align:center;">
+<a href="#">Check into The Journal</a>
+</div>
+</div>
+<div data-role="page" id="janissaries">
+<div data-role="header"><h1>Question 6</h1></div>
+  <p>Slave soldiery had a long history in Islamic lands, but the conquest of Christian territories in
+the Balkans in the late fourteenth century gave the Ottomans access to a new military resource.
+Converted to Islam, these new troops,� called yeni cheri in Turkish and Janissaries in English,
+gave the Ottomans unusual military flexibility</p></div>
+<div data-role="page" id="Ottomanspart1">
+<div data-role="header"><h1>Intro</h1></div>
+<div data-role="main" class="ui-content">
+<p>1. The Ottomans have endured 5 centuries. They started in what is now turkey, and have expanded to the Byzantine Empire, Syria and Egypt</p>
+</div>
+</div>
+<div data-role="page" id="searchHW">
+<div data-role="header"><h1>Search all History Docs</h1></div>
+<form class="ui-filterable">
+  <input id="myFilter" data-type="search">
+</form>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<ul data-role="listview"  data-filter="true" data-input="#myFilter">
+ <li data-role="list-divider" >Chemistry</li>
+   <li><a href="#LimitingReactantsPercentYield">Limiting Reactants/Percent Yield</a></li>
+   <li><a href="#Limiting-Reactant">Definition of Limiting Reactant</a></li>
+   <li><a href="#LR_Example"  >Example for Limiting Reactants</a></li>
+ <li><a href="#LR_Example_2">Example #2</a></li>
+ <li data-role="list-divider">AP World History</li>
+  <li><a href="#Ottomanspart1">Intro</a></li>
+  <li><a href="#Ottomanspart2">Dependencies</a></li>
+  <li><a href="#Religion">Religious Enemies</a></li>
+<li><a href="#KeyTermsHistory">Ottoman Key Terms</a></li>
+<li><a href="#janissaries">Janissaries</a></li>
+<li><a href="#question9">Reign of Suleiman</a></li>
+<li><a href="#question10">The Islamic Law</a></li>
+<li><a href="#question11">Firearms</a></li>
+<li><a href="#janissaries1">Janissaries  , Part 2</a></li>
+<li><a href="#TaxFarming">Tax Farming</a></li>
+<li><a href="#Trade">Trade</a></li>
+<li><a href="#question15">Question 15</a></li>
+<li><a href="#question16">Question 16</a></li>
+ <li><a href="#janissaries">Janissaries</a></li>
+  <li data-role="list-divider">Honor's English</li>
+  <li><a href="Three Ways Coding Kickstarts Your Career.htm">Article 1</a></li>
+</ul>
+<div data-role="popup" id="LR_Example">
+<div data-role="header"><h1>Limiting Reactants - Example</h1></div>
+  <span class="chem_formula"><p>2H<sub>2</sub> &plus; O<sub>2</sub>&rarr;2H<sub>2</sub>O</p></span>
+<p> Limiting Reactant= Hydrogen</p></div>
+<div data-role="popup" id="LR_Example_2">
+<span class="chem_formula"><p>CH<sub>4</sub> &plus; 4O<sub>2</sub> &rarr; CO<sub>2</sub> &plus 2H<sub>2</sub>O</p></span>
+</div>
+<div data-role="footer">
+<div data-role="controlgroup" data-type="horizontal">
+<a href="#searchHW" class="ui-btn ui-icon-plus ui-btn-icon-left">Search</a>
+</div></div></div>
+<div data-role="page" id="Ottomanspart2">
+<div data-role="panel" id="ShareOP2"><div class="g-plus" data-action="share"></div><script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script></div>
+<div data-role="header"><h1>Question 3</h1></div>
+<p>The Ottomans grew because of :
+<ol data-role="list-view">
+<li><a href="#">The Shrewdness of its founder, Osman</a></li>
+<li><a href="#"> control of a strategic link between Europe and Asia on the
+Dardanelles strait</a></li>
+<li><a href="#">the creation of an army that took advantage of the traditional skills of
+the Turkish cavalryman and the new military possibilities presented by gunpowder.</a></li>
+</div>
+</div>
+<div data-role="page" id="janissaries1">
+<div data-role="header"><h1>Question 12</h1></div>
+<p>Since horseback riding and bowmanship were
+not part of their cultural backgrounds, they readily accepted the idea of fighting on foot and
+learning to use guns, which at that time were still too heavy and awkward for a horseman to load
+and fire. The Janissaries lived in barracks and trained all year round
+</p></div>
+<div data-role="page" id="VeniceVSOttomans">
+<div data-role="header"><h1>Venice</h1></div>5.	How did the Ottoman conflict with Venice change the power balance between them?
+The initial fighting left Venice in control of its lucrative islands for another century. But it also
+left Venice a reduced military power compelled to pay tribute to the Ottomans.
+</div>
+<div data-role="page" data-dialog="true" id="checkin">
+<div data-role="header"><h1>Check in With Survey Monkey</h1></div>
+<div id="surveyMonkeyInfo" style="width:500px;font-size:10px;color:#666;border:1px solid #ccc;padding:4px;"><div><iframe id="sm_e_s" src="https://www.surveymonkey.com/jsEmbed.aspx?sm=nZFfKGksELtaqRAvKl_2bFlA_3d_3d" width="500" height="350" style="border:0px;padding-bottom:4px;" frameborder="0" allowtransparency="true" ></iframe></div>Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
+</div><div data-role="page" id="Religion">
+<p> There were 2 Religions that The Ottomans conquered:
+<ol data-role="listView">
+<li>Jews</li>
+and
+<li>Christians</li>
+</ol></p>
+</div>
+<div data-role="page" id="LimitingReactantsPercentYield" data-dialog="true">
+<div data-role="header"><h1>ArcherCraft Online Chemistry Playlist</h1></div>
+  <iframe width="640" height="360" src="//www.youtube.com/embed/LicEaaXhlEY?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+</div>
+<div data-role="page" id="Limiting-Reactant">
+<div data-role="header"></div>
+  <dl>
+    <dt>Limiting Reactant</dt>
+    <dd>The Reactant that is and/or limits the reaction</dd>
+  </dl>
+</div>
+<div data-role="page" id="BookingPage">
+<div data-role="panel" id="BookingPanel">
+  <h2>Directions</h2>
+  <p>Book Your Stay by Selecting a Day!</p>
+</div>
+<div data-role="header"><h1>Book your Stay</h1>
+<a href="#BookingPanel" class="ui-btn ui-btn-inline">Open Panel</a>
+</div>
+  <select name="day" id="day">
+  <optgroup label="Weekdays">
+    <option value="mon">Monday</option>
+    <option value="tue">Tuesday</option>
+    <option value="wed">Wednesday</option>
+  </optgroup>
+  <optgroup label="Weekends">
+    <option value="sat">Saturday</option>
+    <option value="sun">Sunday</option>
+  </optgroup>
+</select>
+</div>
+<div data-role="page" id="ACOYTChemistryPlaylist">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLQJpFnTw8t0K3JElSenGJFImUJ6s-N2EL" frameborder="0" allowfullscreen></iframe>
+</div>
+<div data-role="page" data-dialog="true" id="Conversion"><div data-role="main" class="ui-content"><ul data-role="listview"><li>Step 1: Convert to Moles</li><li>Step 2: Convert to  Moles again</li><li>Step 3: Conver to Grams</li><li>Possible Products</li></ul></div></div>
+<div data-role="page" data-dialog="true" id="Percent_Yield">
+  <div data-role="main" class="ui-content">
+    <p>Percent Yield=(Actual Yield/Predicted Yield) x 100</p>
+  </div>
+</div>
+<div data-role="page" id="question9">
+<p>9.	By the beginning of the reign of Sultan Suleiman the Magnificent, the Ottoman Empire was at its peak. </p>
+</div>
+<div data-role="page" id="question10">
+Is it licit according to the shari�a to fight the followers of the
+Safavids? Is the person who kills them a holy warrior, and the
+person who dies at their hands a martyr?
+Answer: Yes, it is a great holy war and a glorious martyrdom.
+Assuming that it is licit to fight them, is this simply because
+of their rebellion and enmity against the [Ottoman] Sultan of
+the People of Islam, because they drew the sword against the
+troops of Islam, or what?
+Answer: They are both rebels and, from many points of
+view, infidels.
+Can the children of Safavid subjects captured in the Nakhichevan
+campaign be enslaved?
+Answer: No.
+The followers of the Safavids are killed by order of the Sultan.
+If it turns out that some of the prisoners, young and old,
+are [Christian] Armenian[s], are they set free?
+Answer: Yes. So long as the Armenians have not joined the
+Safavid troops in attacking and fighting against the troops of
+Islam, it is illegal to take them prisoner.
+</div>
+<div data-role="page" id="question11">
+As military technology evolved, cannon and lighter-weight firearms played an ever-larger role
+on the battlefield. Accordingly, the size of the Janissary corps�and its cost to the government�
+grew steadily, and the role of the Turkish cavalry diminished. To pay the Janissaries, the sultan
+started reducing the number of landholding cavalrymen. Revenues previously spent on their living
+expenses and military equipment went directly into the imperial treasury. Inflation caused
+by a flood of cheap silver from the New World bankrupted many of the remaining landholders,
+who were restricted by law to collecting a fixed amount of taxes. Their land was returned to the
+state. Displaced cavalrymen, armed and unhappy, became a restive element in rural Anatolia.
+This complicated situation resulted in revolts that devastated Anatolia between 1590 and 1610.</div>
+<div data-role="page" id="question18">
+Outwardly, the Ottoman capital of Istanbul looked quite different from Isfahan (is-fah-HAHN),
+which became Iran�s capital in 1598 by decree of Shah Abbas I (r. 1587�1629). Built on seven hills
+on the south side of the narrow Golden Horn inlet, Istanbul boasted a skyline punctuated by
+the gray stone domes and thin, pointed minarets of the great imperial mosques. The mosques
+surrounding the royal plaza in Isfahan, in contrast, had unobtrusive minarets and brightly tiled
+domes that rose to gentle peaks. High walls surrounded the sultan�s palace in Istanbul. Shah
+Abbas in Isfahan focused his capital on the giant royal plaza, which was large enough for his
+army to play polo, and he used an airy palace overlooking the plaza to receive dignitaries and
+review his troops</div>
+<div data-role="page" id="question20">
+The harbor of Istanbul, the primary Ottoman seaport, teemed with sailing ships and smaller
+craft, many of them belonging to a colony of European merchants perched on a hilltop on the
+north side of the Golden Horn. Isfahan, far from the sea, was only occasionally visited by Europeans.
+Most of its trade was in the hands of Jews, Hindus, and especially a colony of Armenian
+Christians brought in by Shah Abbas.</div>
+<div data-role="page" id="KeyTermsHistory">
+<dl>
+<dt>Suleiman the Magnificent</dt>
+<dd>The Greatest Ottoman Ruler in Ottoman History</dd>
+<dt>Hidden Imam</dt>
+<dd> Last in a
+series of twelve descendants
+of Muhammad's son in-law ali, whom Shi�ites
+consider divinely appointed
+leaders of the Muslim community.
+In occlusion since
+ca. 873, he is expected to
+return as a messiah at the
+end of time.<dd>
+</dl>
+</div>
+<div data-role="page" id="Trade">
+<div data-role="header"><h1>Trade</h1></div>
+Izmir transformed itself between 1580 and 1650 from a small town into a multiethnic, multireligious,
+multilinguistic entrep�t because of the Ottoman government�s inability to control
+trade and the slowly growing dominance of European traders in the Indian Ocean. Spices from
+the East, though still traded in Aleppo and other long-established Ottoman centers, were not
+to be found in Izmir. Aside from Iranian silk brought in by caravan, European traders at Izmir
+purchased local agricultural products�dried fruits, sesame seeds, nuts, and olive oil. As a consequence,
+local farmers who previously had grown grain for subsistence shifted their plantings
+more and more to cotton and other cash crops, including, after its introduction in the 1590s,
+tobacco, which quickly became popular in the Ottoman Empire despite government prohibitions
+(see Environment and Technology: Tobacco and Waterpipes). In this way, the agricultural
+economy of western Anatolia, the Balkans, and the Mediterranean coast�the Ottoman lands
+most accessible to Europe (see Map 19.1)�became enmeshed in a growing European commercial
+network.</div>
+<div data-role="page" id="TaxFarming">
+Rural administration, already disrupted by the rebellions, suffered from the transition to tax
+farms. The former military landholders had kept order on their lands in order to maintain their
+incomes. Tax farmers were less likely to live on the land. The imperial government therefore
+faced greater administrative burdens and came to rely heavily on powerful provincial governors
+or on wealthy men who purchased lifelong tax collection rights and behaved more or less like
+private landowners.</div>
+<div data-role="page" id="question15">
+Aleppo and Damascus, however, the Janissaries came out on top. Meanwhile, in central
+Arabia, a puritanical Sunni movement inspired by Muhammad ibn Abd al-Wahhab began a
+remarkable rise beyond the reach of Ottoman power. Although no region declared full independence,
+the sultan�s power was slipping away to the advantage of a broad array of lower officials
+and upstart chieftains in all parts of the empire while the Ottoman economy was reorienting
+itself toward Europe.
+</div>
+<div data-role="page" id="question16">
+Ismail proclaimed himself shah of Iran and declared that from that
+time forward his realm would be devoted to Shi�ite Islam, which revered the family of Muhammad�s
+son-in-law Ali. Although Ismail�s reasons for compelling Iran�s conversion to Shi�ism are
+unknown, the effect of this radical act was to create a deep chasm between Iran and its neighbors,
+all of which were Sunni. Iran became a truly separate country for the first time since its
+incorporation into the Islamic caliphate in the seventh century</div>
+<div data-role="page" id="question17">
+neighbors had long been in the making. Persian, written in the Arabic script from the tenth
+century onward, had emerged as the second language of Islam. Iranian scholars and writers
+normally read Arabic as well as Persian and sprinkled their writings with Arabic phrases, but
+their Arab counterparts were much less inclined to learn Persian. After the Mongols destroyed
+Baghdad, the capital of the Islamic caliphate, in 1258, Iran developed largely on its own, having
+more extensive contacts with India�where Muslim rulers favored the Persian language�than
+with the Arabs.</div>
+<div data-role="page" id="question21">
+The private side of family life has left few traces, but it is apparent that women�s society�
+consisting of wives, children, female servants, and sometimes one or more eunuchs�was not
+entirely cut off from the outside world. Ottoman court records reveal that women, using male
+agents, were very active in the urban real estate market. Often they were selling inherited shares
+of their father�s estate, but some both bought and sold real estate on a regular basis and even
+established religious endowments for pious purposes</div>
+<div data-role="page" id="#Article2">
+from Codecademy Schools:
+<cite>
+  Why should every child learn how to program?
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+Technology is radically changing every area of our society, from communication to government to how we do our jobs. Digital literacy is now a fundamental skill like reading and writing.
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+By learning to program, kids can have a say in how software shapes their world. Plus, programming teaches important reasoning, logic, and communication skills.
+</cite>
+</div>
+<div data-role="page" id="Spanish"><div data-role="collapsibleset"><div data-role="collapsible"><h1>Frida Kahlo</h1>Frida Kahlo, in full Frida Kahlo de Rivera, original name Magdalena Carmen Frida Kahlo y Calderón , (born July 6, 1907, Coyoacán, Mex.—died July 13, 1954, Coyoacán), Mexican painter noted for her intense, brilliantly coloured self-portraits painted in a primitivistic style. Though she denied the connection, she is often identified as a Surrealist. She was married to muralist Diego Rivera (1929, separated 1939, remarried 1941).
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+Self-Portrait with Monkey, oil on fibreboard by Frida Kahlo, 1938.The Granger Collection, New York
+The Granger Collection, New York
+Diego Rivera with Frida Kahlo.Library of Congress, Washington, D.C. (neg. no. LC-USZ62-42516)
+Library of Congress, Washington, D.C. (neg. no. LC-USZ62-42516)
+Frida Kahlo, 1941.George EastmanHouse/Hulton Archive/Getty Images
+George EastmanHouse/Hulton Archive/Getty Images
+In 1925 Kahlo was involved in a bus accident that so seriously injured her that she had to undergo some 35 medical operations. During her slow recovery from the trauma, Kahlo taught herself to paint. She showed her early efforts to Rivera, whom she had met a few years earlier, and he encouraged her to continue to paint. After their marriage, Kahlo traveled (1930–33) with Rivera, who had received commissions for murals from several cities in the United States. In 1938 she met André Breton, a leading Surrealist, who championed her work; both Breton and Marcel Duchamp were influential in arranging for some of the exhibits of her work in the United States and Europe. In 1943 she was appointed a professor of painting at La Esmeralda, the Education Ministry’s School of Fine Arts. Her house in Coyoacán is now the Frida Kahlo Museum. The Diary of Frida Kahlo, covering the years 1944–54, and The Letters of Frida Kahlo were both published in 1995.</div><div data-role="collapsible"><img src="http://media2.school.eb.com//eb-media/36/93336-004-24D196CE.jpg"></div></div></div>
+<div data-role="page" id="Essaypage1"><div data-role="panel" id="ShareFB"><fb:send href="https://archercraft.blogspot.com" width="100" height="100" colorscheme="dark"></fb:send></div><div data-role="header"><a href="#ShareFB">Share Page One Of Weldon Henson's Essay!</a><h1>Essay Page One</h1></div><div data-role="main" class="ui-content"><p>imagine a time where you couldn't afford Microsoft Word and you had to type an assignment. Code is what makes this this assignment possible and also is helpful for getting work done. The schools should have an afterschool open code program as it builds word processing autobiographical and rational thinking skills</p><p>One reason I believe there should be an open code program is for the development of word processing skills. For example Codecademy says that that code can get you a job, and also promote you and you can become a developer too. these skills involve a word processing skill that has work available on all computers that have a web browser.</p><p>Another reason I believe Code should be an afterschool program as it also helps colleges, and universities find students. For example, The Book " How to Design and Write Sustainable Websites Today" Says that Code connects people online, Establishes online Identities, and that it Helps colleges find these people as well. This is helpful for when you have a resume fot a job or when you're off to college</p></div></div><div data-role="page" id="Essay_page_2"><div data-role="main" class="ui-content"><p>I Also believe code should be an afterschool program as this can help improve thinking skills. For example, again in "How to Design and Write Sustainable Websites Today" , The use of other subjects in coding helps you think about the design of a certain web page</p></div></div><div data-role="page" id="Essay_page-3"><div data-role="main" class="ui-content"><p>On the other hand, some people think of coders of people that hack things, as the are young people with an intellectual curiosity, as said by Encyclopedia Britannica. This is not true, however This is not true , however, as  in society , we must teach the right ways of web development-becoming found,doing work, or talking about our skill of a certain subject, like what the book "How to Design and Write Sustainable Websites Today" says.</div></div><div data-role="page" id="Essay_Conclusion"><div data-role="main" class="ui-content"> Overall, coding should be an afterschool program as coding can become a word processing skill , can help you get found, and can help develop refined logical skills</div></div>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/ACOKing">ACOKing</a> can be found on <a href="https://github.com/ACOKing/ArcherCraft">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
-
-    
-  </body>
+  
+</body>
 </html>
