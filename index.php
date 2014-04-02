@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head></head>
-<body></body>
+<body>
+<h1>ArcherCraft</h1>
+</body>
 </html>
